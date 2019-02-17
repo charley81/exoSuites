@@ -39,7 +39,7 @@ ul {
 
 /* Utility Classes */
 .container {
-  max-width: 1100px;
+  max-width: 1300px;
   padding: 0 2rem;
   margin: auto;
   overflow: hidden;
@@ -178,6 +178,23 @@ ul {
 }
 
 /* Rooms */
+#rooms hr {
+  width: 20%;
+  margin: auto;
+}
+
+#rooms .items {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#rooms .items .item {
+  flex: 1 0 33.3%;
+}
+
+#rooms .items .item h3 {
+  text-transform: uppercase;
+}
 
 /* About */
 
