@@ -135,55 +135,6 @@ ul {
 }
 
 /* Header */
-#header .navbar {
-  display: flex;
-  justify-content: space-between;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
-#header .navbar h3 {
-  z-index: 1;
-  color: var(--text-secondary);
-}
-
-#header .navbar ul {
-  display: flex;
-  align-items: center;
-  z-index: 1;
-}
-
-#header .navbar ul a {
-  color: var(--text-secondary);
-}
-
-#header .showcase {
-  background: #fff url("../img/showcase.jpg") no-repeat center center/cover;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-#header .showcase .showcase-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  color: var(--text-secondary);
-
-  /* Overlay */
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
-}
 
 /* Rooms */
 
