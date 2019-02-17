@@ -3,7 +3,6 @@ window.addEventListener("scroll", function() {
   if (window.scrollY > 150) {
     document.querySelector("#navbar").style.backgroundColor = "#fff";
     document.querySelector("#navbar").style.color = "#333";
-    document.querySelector("#navbar").style.opacity = "0.7";
     let navLinks = document.querySelectorAll("a");
     navLinks.forEach(function(link) {
       link.style.color = "#333";
