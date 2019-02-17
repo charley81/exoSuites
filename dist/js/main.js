@@ -1,11 +1,20 @@
 // Sticky Menu
 window.addEventListener("scroll", function() {
   if (window.scrollY > 150) {
-    document.querySelector("#navbar").style.backgroundColor = "#333";
+    document.querySelector("#navbar").style.backgroundColor = "#fff";
+    document.querySelector("#navbar").style.color = "#333";
     document.querySelector("#navbar").style.opacity = "0.7";
+    let navLinks = document.querySelectorAll("a");
+    navLinks.forEach(function(link) {
+      link.style.color = "#333";
+    });
   } else {
     document.querySelector("#navbar").style.backgroundColor = "transparent";
     document.querySelector("#navbar").style.color = "#fff";
+    let navLinks = document.querySelectorAll("a");
+    navLinks.forEach(function(link) {
+      link.style.color = "#fff";
+    });
   }
 });
 
