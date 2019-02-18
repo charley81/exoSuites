@@ -197,6 +197,22 @@ ul {
 }
 
 /* About */
+#about .container {
+  display: flex;
+}
+
+#about .container div {
+  flex: 1;
+}
+
+#about .container .about-text hr {
+  width: 20%;
+  margin-bottom: 1rem;
+}
+
+#about .container .about-image {
+  background: url("../img/about-image.jpg") no-repeat center center/cover;
+}
 
 /* Features */
 
