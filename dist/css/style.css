@@ -215,7 +215,23 @@ ul {
 }
 
 /* Features */
+#features .items {
+  display: flex;
+  flex-flow: row wrap;
+}
 
+#features .items .item {
+  flex: 1 0 25%;
+}
+
+#features .items .item i {
+  color: var(--color-primary);
+}
+
+#features .container hr {
+  width: 20%;
+  margin: auto;
+}
 /* Testimonials */
 
 /* Events */
