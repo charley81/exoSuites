@@ -1,0 +1,55 @@
+#navbar {
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+}
+
+#navbar ul {
+  padding: 0.5rem 0;
+}
+
+#showcase h1 {
+  font-size: 2rem;
+}
+
+#showcase .lead {
+  font-size: 0.95rem;
+}
+
+#rooms .items {
+  display: block;
+}
+
+#about .container {
+  display: block;
+  text-align: center;
+  padding: 0;
+}
+
+#about .about-text {
+  padding: 0;
+  text-align: center;
+}
+
+#about hr {
+  margin: auto;
+}
+
+#events .items {
+  display: block;
+  padding: 0;
+}
+
+#events .items .item {
+  padding: 1rem 0;
+}
+
+#testimonials .items {
+  display: block;
+  padding: 0;
+}
+
+#testimonials .items .item {
+  display: block;
+  text-align: center;
+}
