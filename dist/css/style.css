@@ -6,6 +6,7 @@
   --color-primary-darker: rgb(188, 0, 0);
   --text-primary: #333;
   --text-secondary: #fff;
+  --text-greyed: #999;
 }
 
 /* Base Elements */
@@ -49,8 +50,21 @@ ul {
   background: #f4f4f4;
 }
 
+.bg-night {
+  background: #333;
+  color: #fff;
+}
+
 .text-center {
   text-align: center;
+}
+
+.greyed {
+  color: var(--text-greyed);
+}
+
+.text-primary {
+  color: var(--color-primary);
 }
 
 .l-heading {
@@ -232,8 +246,47 @@ ul {
   width: 20%;
   margin: auto;
 }
-/* Testimonials */
 
 /* Events */
+#events hr {
+  width: 20%;
+  margin: auto;
+}
+#events .items {
+  display: flex;
+}
+
+#events .items .item {
+  flex: 1;
+}
+
+#events .items .item h4 {
+  font-weight: bold;
+}
+
+/* Testimonials */
+#testimonials hr {
+  width: 20%;
+  margin: auto;
+}
+
+#testimonials .items {
+  display: flex;
+}
+
+#testimonials .items .item {
+  flex: 1;
+  display: flex;
+}
+
+#testimonials .items .item img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+#testimonials .items .item .item-image {
+  margin-right: 1rem;
+}
 
 /* Footer */
